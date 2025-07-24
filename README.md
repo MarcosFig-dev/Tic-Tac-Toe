@@ -1,12 +1,36 @@
-# React + Vite
+# Tic-Tac-Toe 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Tic-Tac-Toe game** built with **React**. This project demonstrates how to manage component state, handle user events, and render dynamic content in a clean and modular way.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Two-player turn-based gameplay (X and O)
+- Win condition detection (rows, columns, diagonals)
+- Basic invalid move prevention
+- "New Game" button to reset the board
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Functional Components + Hooks)
+- CSS for styling
+
+## 📁 File Structure
+
+/src
+├── Board.jsx # Main game board logic
+├── Square.jsx # Single square (cell) component
+├── board.css # Board styling
+└── App.js # Main entry
+
+## 🧑‍💻 Getting Started
+
+1. Clone the repository:
+git clone https://github.com/MarcosFig-dev/Tic-Tac-Toe
+cd Tic-Tac-Toe
+
+2. Install dependencies:
+npm install
+
+3. Start the development server:
+npm start
+Then open http://localhost:3000 in your browser.
