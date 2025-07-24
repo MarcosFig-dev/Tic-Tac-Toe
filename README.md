@@ -18,6 +18,7 @@ A simple and interactive **Tic-Tac-Toe game** built with **React**. This project
 
 /src
 - App.js # Main entry
+  
 /components
 - Board.jsx # Main game board logic
 - Square.jsx # Single square (cell) component
