@@ -17,10 +17,10 @@ A simple and interactive **Tic-Tac-Toe game** built with **React**. This project
 ## 📁 File Structure
 
 /src
-├── Board.jsx # Main game board logic
-├── Square.jsx # Single square (cell) component
-├── board.css # Board styling
-└── App.js # Main entry
+- Board.jsx # Main game board logic
+- Square.jsx # Single square (cell) component
+- Board.css # Board styling
+App.js # Main entry
 
 ## 🧑‍💻 Getting Started
 
