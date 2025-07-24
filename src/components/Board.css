@@ -1,0 +1,21 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 5px;
+    width: 630px; 
+    margin: 20px auto;
+    border: 5px solid black;
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 2px solid black;
+}
