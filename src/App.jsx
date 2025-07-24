@@ -1,14 +1,15 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Board from "./components/Board.jsx";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from "./pages/HomePage.jsx"
+import Multiplayer from './pages/Multiplayer.jsx';
 
 function App() {
   return (
     <div className="app">
-      <h1>Tic-Tac-Toe</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Board />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="Multiplayer" element={<Multiplayer />} />
         </Routes>
       </BrowserRouter>
     </div>
