@@ -1,0 +1,8 @@
+.navbutton{
+    background-color: #3B82F6;
+    color: #F1F5F9;
+}
+
+.navbutton:hover{
+    background-color: #60A5FA;
+}

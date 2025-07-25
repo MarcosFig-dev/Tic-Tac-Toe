@@ -1,11 +1,14 @@
 import { useNavigate } from "react-router-dom";
+import "./buttons.css";
 
 const NavButtons = ({ text, name, to }) => {
   const navigate = useNavigate();
 
   return (
-    <button className={name} onClick={() => navigate(to)}>
-      {text}
+    <button 
+    className="navbutton"
+    onClick={() => navigate(to)}>
+    {text}
     </button>
   );
 };
